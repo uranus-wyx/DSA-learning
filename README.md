@@ -1,6 +1,6 @@
 # Data Structure and Algorithm
 
-
-*WEEK2
-*WEEK3
-*WEEK4
+# Leetcode
+*WEEK2-Linked List
+*WEEK3-MinStack
+*WEEK4-Set Mismatch
