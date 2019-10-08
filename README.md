@@ -1,6 +1,6 @@
 # Data Structure and Algorithm
 
-  ## * [Leetcode](https://github.com/Yuni-wih/DSA-learning/tree/master/DSA-Leetcode)
+  ## [Leetcode](https://github.com/Yuni-wih/DSA-learning/tree/master/DSA-Leetcode)
   
    * [**WEEK2-Linked List**]
 
