@@ -1,22 +1,14 @@
 # 108_1 Data Structure and Algorithm
-:::success
-巨資三B：資料結構與演算法
-吳宜璇 Yuni
-:::
+
++巨資三B：資料結構與演算法
++吳宜璇 Yuni
+
 
 - [108_1 Data Structure and Algorithm](#108-1-data-structure-and-algorithm)
 - [Leetcode](#leetcode)
 - [Notes](#notes)
   * [__Linked List__](#--linked-list--)
-    + [Learning](#learning)
-      - [Intro](#intro)
-      - [Linked List & Array](#linked-list---array)
-    + [Reading](#reading)
-    + [Additional](#additional)
   * [**Min Stack**](#--min-stack--)
-    + [Learning](#learning-1)
-      - [Intro](#intro-1)
-    + [Reading](#reading-1)
 
 # Leetcode
   
