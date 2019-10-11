@@ -18,10 +18,6 @@
       - [Intro](#intro-1)
     + [Reading](#reading-1)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
-
 # Leetcode
   
    * [**WEEK2-Linked List**](https://github.com/Yuni-wih/DSA-learning/tree/master/DSA-Leetcode/Week2%20%7C%7C%20Linked%20List)
