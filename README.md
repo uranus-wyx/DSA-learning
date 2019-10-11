@@ -1,6 +1,8 @@
 # 108_1 Data Structure and Algorithm
 
-##  [Leetcode](https://github.com/Yuni-wih/DSA-learning/tree/master/DSA-Leetcode)
+[TOC]
+
+- [ ][Connect-Leetcode](https://github.com/Yuni-wih/DSA-learning/tree/master/DSA-Leetcode)
   
    * [**WEEK2-Linked List**](https://github.com/Yuni-wih/DSA-learning/tree/master/DSA-Leetcode/Week2%20%7C%7C%20Linked%20List)
 
@@ -11,35 +13,34 @@
 
 
 # Notes
->###  [I. Linked List](#linkedlist)
->###  [II. Min Stack](#minstack)
-
 
 ## __Linked List__
-### Learning
+* ## Learning
 
-* Intro
-    * Linked-list是由一連串的節點`Node`所構成，每個節點指向下一個節點，而最後一個節點則指向None，因此，每個節點本身應該要有兩種`屬性`（attribute），一個是本身帶有的值或者是資料，另一個則是指向下一個節點的指標->（pointer）。
+    * ### Intro
+        * Linked-list是由一連串的節點`Node`所構成，每個節點指向下一個節點，而最後一個節點則指向None，因此，每個節點本身應該要有兩種`屬性`（attribute），一個是本身帶有的值或者是資料，另一個則是指向下一個節點的指標->（pointer）。
     ![](https://i.imgur.com/AOctXtZ.png)
-* Linked List & Array
-    * Linked List屬於鏈式儲存結構，可以快速插入、刪除和移動，因此不會浪費太多記憶體的空間；Array是順序儲存結構，優點：無需為表中元素之間的邏輯關係而增加額外的儲存空間；可以快速的存取表中任一位置的元素缺點：插入和刪除操作需要移動大量元素；當線性表長度變化較大時，難以確定儲存空間的容量。
+    * ### Linked List & Array
+        * Linked List屬於鏈式儲存結構，可以快速插入、刪除和移動，因此不會浪費太多記憶體的空間；Array是順序儲存結構，優點：無需為表中元素之間的邏輯關係而增加額外的儲存空間；可以快速的存取表中任一位置的元素缺點：插入和刪除操作需要移動大量元素；當線性表長度變化較大時，難以確定儲存空間的容量。
 
-### Additional
+* ## Additional
 
-* 時間複雜度：
+    * 時間複雜度：
     
    
-### Reading
-* [用python實作linked-list](https://medium.com/@tobby168/用python實作linked-list-524441133d4d)
-* [Linked List - 鏈表](https://algorithm.yuanbin.me/zh-tw/basics_data_structure/linked_list.html)
-* [Python 数据结构入门 - 链表（Linked List）](https://python123.io/index/topics/data_structure/linked_list)
+* ## Reading
+    * [用python實作linked-list](https://medium.com/@tobby168/用python實作linked-list-524441133d4d)
+    * [Linked List - 鏈表](https://algorithm.yuanbin.me/zh-tw/basics_data_structure/linked_list.html)
+    * [Python 数据结构入门 - 链表（Linked List）](https://python123.io/index/topics/data_structure/linked_list)
 
 ## **Min Stack**
 
-* Intro
-    * Stack是具有「Last-In-First-Out」的資料結構(可以想像成一種裝資料的容器)，「最晚進入Stack」的資料會「最先被取出」，「最早進入Stack」的資料則「最晚被取出」。
+* ## Learning
 
-    * Push(data)：把資料放進Stack。
+    * ### Intro
+        * Stack是具有「Last-In-First-Out」的資料結構(可以想像成一種裝資料的容器)，「最晚進入Stack」的資料會「最先被取出」，「最早進入Stack」的資料則「最晚被取出」。
+
+        * Push(data)：把資料放進Stack。
     Pop：把「最上面」的資料從Stack中移除。
     Top：回傳「最上面」的資料，不影響資料結構本身。
     IsEmpty：確認Stack裡是否有資料，不影響資料結構本身。
@@ -47,8 +48,8 @@
 
     ![](https://i.imgur.com/H3HBwef.png)
     
-### Reading
-* [Stack: Intro(簡介)](http://alrightchiu.github.io/SecondRound/stack-introjian-jie.html)
+* ## Reading
+    * [Stack: Intro(簡介)](http://alrightchiu.github.io/SecondRound/stack-introjian-jie.html)
 
 
 
