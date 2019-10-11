@@ -1,7 +1,7 @@
 # 108_1 Data Structure and Algorithm
 
-+``` 巨資三B：資料結構與演算法```
-+``` 吳宜璇 Yuni```
+```diff+巨資三B：資料結構與演算法```
+```diff+ 吳宜璇 Yuni```
 
 - [Leetcode](#leetcode)
 - [Notes](#notes)
