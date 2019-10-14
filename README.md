@@ -17,7 +17,7 @@
    * [**WEEK3-MinStack**](https://github.com/Yuni-wih/DSA-learning/tree/master/DSA-Leetcode/Week3%20%7C%7C%20MinStack)
 
    * [**WEEK4-Set Mismatch**](https://github.com/Yuni-wih/DSA-learning/tree/master/Week4%20%7C%7C%20Set%20Mismatch)
-   * [**WEEK5-Insertion Sort**](https://github.com/Yuni-wih/DSA-learning/tree/master/Week5%20%7C%7C%20Insertion%20Sort)
+   * [**WEEK5-Quick Sort**](https://github.com/Yuni-wih/DSA-learning/tree/master/Week5%20%7C%7C%20Insertion%20Sort)
 
 
 # Notes
@@ -29,8 +29,8 @@
         * Linked-list是由一連串的節點`Node`所構成，每個節點指向下一個節點，而最後一個節點則指向None，因此，每個節點本身應該要有兩種`屬性`（attribute），一個是本身帶有的值或者是資料，另一個則是指向下一個節點的指標->（pointer）。
     ![](https://i.imgur.com/AOctXtZ.png)
     * #### Linked List & Array
-        * Linked List屬於鏈式儲存結構，可以快速插入、刪除和移動，因此不會浪費太多記憶體的空間；Array是順序儲存結構，優點：無需為表中元素之間的邏輯關係而增加額外的儲存空間；可以快速的存取表中任一位置的元素缺點：插入和刪除操作需要移動大量元素；當線性表長度變化較大時，難以確定儲存空間的容量。
- 
+        * `Linked List屬於鏈式儲存結構，可以快速插入、刪除和移動，因此不會浪費太多記憶體的空間；Array是順序儲存結構，優點：無需為表中元素之間的邏輯關係而增加額外的儲存空間；可以快速的存取表中任一位置的元素缺點：插入和刪除操作需要移動大量元素；當線性表長度變化較大時，難以確定儲存空間的容量。`
+        * Linked List 每一個節點都是個體，Array牽一髮動全身。
 * ### Reading
     * [用python實作linked-list](https://medium.com/@tobby168/用python實作linked-list-524441133d4d)
     * [Linked List - 鏈表](https://algorithm.yuanbin.me/zh-tw/basics_data_structure/linked_list.html)
@@ -46,6 +46,8 @@
 
     * #### Intro
         * Stack是具有「Last-In-First-Out」的資料結構(可以想像成一種裝資料的容器)，「最晚進入Stack」的資料會「最先被取出」，「最早進入Stack」的資料則「最晚被取出」。
+        
+        * 找到Stack中的最小值。
 
         * Push(data)：把資料放進Stack。
           Pop：把「最上面」的資料從Stack中移除。
@@ -57,6 +59,15 @@
     
 * ### Reading
     * [Stack: Intro(簡介)](http://alrightchiu.github.io/SecondRound/stack-introjian-jie.html)
+    * [Stack: 能夠在O(1)取得最小值的MinStack](http://alrightchiu.github.io/SecondRound/stack-neng-gou-zai-o1qu-de-zui-xiao-zhi-de-minstack.html)
 
+## **Set Mismatch**
+
+* ### Learning
+
+    * #### Intro
+
+        *  找出重複值和缺失值
+        *  設一個Count的數組，Count的下標對應nums的值，Count的元素代表nums中元素出現的次數。
 
 
