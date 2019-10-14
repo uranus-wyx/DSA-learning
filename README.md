@@ -70,5 +70,11 @@
 
         *  找出重複值和缺失值
         *  設一個Count的數組，Count的下標對應nums的值，Count的元素代表nums中元素出現的次數。
+       
+## **Insertion Sort**
+
+* ### Learning
+
+    * #### Intro
 
 
