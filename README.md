@@ -10,7 +10,6 @@
   * [__Linked List__](#--linked-list--)
   * [**Min Stack**](#--min-stack--)
   * [**Set Mismatch**](#--set-mismatch--)
-  * [**Insertion Sort**](#--insertion-sort--)
 
 # Leetcode
   
