@@ -8,8 +8,21 @@
 - [Leetcode](#leetcode)
 - [Notes](#notes)
   * [__Linked List__](#--linked-list--)
+    + [Learning](#learning)
+      - [Intro](#intro)
+      - [Linked List & Array](#linked-list---array)
+    + [Reading](#reading)
+    + [Additional](#additional)
   * [**Min Stack**](#--min-stack--)
+    + [Learning](#learning-1)
+      - [Intro](#intro-1)
+    + [Reading](#reading-1)
   * [**Set Mismatch**](#--set-mismatch--)
+    + [Learning](#learning-2)
+      - [Intro](#intro-2)
+  * [**Insertion Sort**](#--insertion-sort--)
+    + [Learning](#learning-3)
+      - [Intro](#intro-3)
   
 # Leetcode
   
