@@ -20,7 +20,7 @@
 
    * [**WEEK4-Set Mismatch**](https://github.com/Yuni-wih/DSA-learning/tree/master/Week4%20%7C%7C%20Set%20Mismatch)
    * [**WEEK5-Insertion Sort**](https://github.com/Yuni-wih/DSA-learning/tree/master/Week5%20%7C%7C%20Insertion%20Sort)
-              > [__HW1-Quicksort__](https://nbviewer.jupyter.org/github/Yuni-wih/DSA-learning/blob/master/Week5%20%7C%7C%20Insertion%20Sort/HW1%20%7C%7C%20Quick%20Sort/Quick%20Sort.ipynb)
+              * [__HW1-Quicksort__](https://nbviewer.jupyter.org/github/Yuni-wih/DSA-learning/blob/master/Week5%20%7C%7C%20Insertion%20Sort/HW1%20%7C%7C%20Quick%20Sort/Quick%20Sort.ipynb)
 
 # Notes
 
