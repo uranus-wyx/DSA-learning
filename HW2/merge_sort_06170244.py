@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[4]:
+# In[1]:
 
 
 ###### merge_sort_06170244.py
@@ -27,8 +27,8 @@ class Solution(object):
             right = self.merge_sort(right) #呼叫自己，這兩行是為了將nums裡的元素一個個分開，因為是位於Solution這個class裡，所以要self.merge_sort()
 
             while i<len(left) and j<len(right): #使用while條件迴圈，當i(left)＆j(right)同時小於組裡的長度時，會進行下一步，反之，若有條件不符，則不會繼續進行
-                if left[i] < right [j]:
-                    res.append(left[i])  
+                if left[i] <= right [j]:
+                    res.append(left[i]) 
                     i+=1
                 elif left[i] > right[j]:
                     res.append(right[j])
@@ -36,13 +36,13 @@ class Solution(object):
 
             res+=left[i:]+right[j:] #如果有一邊已經跑完了迴圈，這一步是以追加方式，將剩餘的元素加進res裡
 
-        return res
+            return res
 
 
-# In[5]:
+# In[2]:
 
 
-nums = [3,1,5,8,2,7,9,4,6]
+nums = [3,1,5,8,2,7,9,4,6,9]
 output = Solution().merge_sort(nums)
 output
 
