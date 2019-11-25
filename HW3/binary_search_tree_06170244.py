@@ -139,31 +139,47 @@ class Solution(object):
         :rtype:TreeNode(the root of new completed binary search tree) (cannot search())
         """
         node = self.search(root,target)
-        cnt = self.count()
+        i = root
         
-        if not root:
-            return root
-
-        while cnt>-1 :
-                    
+        while node != None:
+    
             if target < root.val:
-                
-                root = root.left
-                
-            elif root.val == target:
-
-                    root.val = None
-                    root.val = new_val
-
+                root.left = self.delete(root.left,target)
             elif target > root.val:
+                root.right = self.delete(root.right,target)
 
-                root = root.right
-            
-            cnt-=1
-        
-            
-        return root
+            else:
 
+                if root.left is None and root.right is None:
+                    
+                    root = None
+
+                elif root.left and (root.right is None):                    
+                    root = root.left
+                    self.delete(root,target)
+
+                elif (root.left is None) and root.right:
+                    root = root.right
+                    self.delete(root,target)
+
+                elif root.left and root.right:
+
+                    parent = root
+                    successor = root.right
+
+                    while successor.left:
+                        parent = successor
+                        successor = successor.left
+
+                    root.val = successor.val
+
+                    if root == successor:
+                        parent.left = successor.right
+                    else:
+                        parent.right = successor.right
+                
+            self.insert(i,new_val)
+            return i
 
 # In[41]:
 
