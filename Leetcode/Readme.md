@@ -1,7 +1,7 @@
 # Leetcode
-:::info
-Leetcode 程式碼 刷起來
-:::
+
+`程式碼 刷起來`
+
 
 * [147_Insertion Sort List](https://github.com/Yuni-wih/DSA-learning/blob/master/Leetcode/147_Insertion%20Sort%20List_06170244.py)
 * [155_Min Stack](https://github.com/Yuni-wih/DSA-learning/blob/master/Leetcode/155_Min%20Stack_06170244.py)
