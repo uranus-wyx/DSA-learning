@@ -292,7 +292,7 @@
     * #### Reading
         * [Minimum Spanning Tree：Intro(簡介)](http://alrightchiu.github.io/SecondRound/graph-depth-first-searchdfsshen-du-you-xian-sou-xun.html)
 
-## **Minimum Spanning Tree**
+## **Shortest Path**
 
 * ### Learning
 
