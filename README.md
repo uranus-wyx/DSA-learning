@@ -45,18 +45,18 @@
     2019.09.13 Moon Festival
     ```
 * Week2
-     - [x] [Linked List] (#notes-linked-list)
+     - [x] [__Linked List__](#linked-list)
      - [x] [Lesson2-Linked List](https://github.com/Yuni-wih/DSA-learning/tree/master/Lesson2%20%7C%7C%20Linked%20List)
      - [x] [Leetcode-Design Linked List](https://github.com/Yuni-wih/DSA-learning/blob/master/Leetcode/707_Design%20Linked%20List_06170244.py)
 * Week3
-     - [x] [Stack and Queue] (#stack-&-queue)
+     - [x] [**Stack & Queue**](#stack-and-queue)
      - [x] [Lesson3-MinStack](https://github.com/Yuni-wih/DSA-learning/tree/master/Lesson3%20%7C%7C%20MinStack)
      - [x] [Leetcode-MinStack](https://github.com/Yuni-wih/DSA-learning/blob/master/Leetcode/155_Min%20Stack_06170244.py)
 * Week4
-     - [x] [Set Mismatch] (#set-mismatch)
+     - [x] [**Set Mismatch**](#set-mismatch)
      - [x] [Lesson4-Set Mismatch](https://github.com/Yuni-wih/DSA-learning/tree/master/Lesson4%20%7C%7C%20Set%20Mismatch)
      - [x] [Leetcode-Set Mismatch](https://github.com/Yuni-wih/DSA-learning/blob/master/Leetcode/645_Set%20Mismatch_06170244.py)
-     - [x] [Insertion Sort] (#insertion-sort)
+     - [x] [__Insertion Sort__](#insertion-sort)
      - [x] [Lesson5-Insertion Sort](https://github.com/Yuni-wih/DSA-learning/tree/master/Week5%20%7C%7C%20Insertion%20Sort)
      - [x] [Leetcode-Insertion Sort List](https://github.com/Yuni-wih/DSA-learning/blob/master/Leetcode/147_Insertion%20Sort%20List_06170244.py)
      
@@ -65,17 +65,17 @@
     2019.10.10 Double Tenth Day
     ```
 * Week6
-    - [x] [Quick Sort] (#quick-sort)
-    - [x] [Heap Sort] (#heap-sort)
+    - [x] [__Quick Sort__](#quick-sort)
+    - [x] [__Heap Sort__](#heap-sort)
     - [x] [Lesson6-Heap Sort](https://github.com/Yuni-wih/DSA-learning/tree/master/Lesson6%20%7C%7C%20Heap%20Sort)
     - [x] [Leetcode-Univalued Binary Tree](https://github.com/Yuni-wih/DSA-learning/blob/master/Leetcode/965_Univalued%20Binary%20Tree_06170244.py)
     - [x] [Leetcode-Sort an Array](https://github.com/Yuni-wih/DSA-learning/blob/master/Leetcode/912_Sort%20an%20Array_06170244.py)
     - [x] [HW1-Quick Sort](https://github.com/Yuni-wih/DSA-learning/tree/master/HW1)
 * Week7
-    - [x] [Merge Sort] (#merge-sort)
+    - [x] [__Merge Sort__](#merge-sort)
     - [x] [HW2-Heap Sort & Merge Sort](https://github.com/Yuni-wih/DSA-learning/tree/master/HW2)
 * Week8
-    - [x] [Binary Tree] (#binary-tree)
+    - [x] [Binary Tree](#binary-tree)
 * Week9
     - [x] [HW3-Binary Search Tree](https://github.com/Yuni-wih/DSA-learning/tree/master/HW3)
 * Week10
