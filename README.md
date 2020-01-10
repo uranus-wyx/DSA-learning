@@ -7,7 +7,7 @@
 
 - [Content](#content)
   * [Homework](#homework)
-  * [Practing](#practicing)
+  * [Practicing](#practicing)
   * [Class Lesson](#class-lesson)
 - [Notes](#notes)
   * [__Linked List__](#linked-list)
