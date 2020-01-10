@@ -45,7 +45,7 @@
     2019.09.13 Moon Festival
     ```
 * Week2
-     - [x] [Linked List] (#linked-list)
+     - [x] [Linked List] (#notes-linked-list)
      - [x] [Lesson2-Linked List](https://github.com/Yuni-wih/DSA-learning/tree/master/Lesson2%20%7C%7C%20Linked%20List)
      - [x] [Leetcode-Design Linked List](https://github.com/Yuni-wih/DSA-learning/blob/master/Leetcode/707_Design%20Linked%20List_06170244.py)
 * Week3
