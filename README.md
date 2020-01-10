@@ -11,9 +11,19 @@
   * [Class Lesson](#class-lesson)
 - [Notes](#notes)
   * [__Linked List__](#linked-list)
-  * [**Min Stack**](#min-stack)
+  * [**Stack & Queue**](#stack-&-queue)
   * [**Set Mismatch**](#set-mismatch)
   * [**Insertion Sort**](#insertion-sort)
+  * [**Quick Sort**](#quick-sort)
+  * [**Merge Sort**](#merge-sort)
+  * [**Heap Sort**](#heap-sort)
+  * [**Binary Tree**](#binary-tree)
+  * [**Red Black Tree**](#red-black-tree)
+  * [**Hash**](#hash)
+  * [**Breadth First Search**](#breadth-first-search)
+  * [**Depth First Search**](#depth-first-search)
+  * [**Minimum Spanning Tree**](#minimum-spanning-tree)
+  * [**Shortest Path**](#shortest-path)
   
 # Content
 ### **Homework**
@@ -31,10 +41,11 @@
 
 ### **Class Lesson**
 * Week1
-    ```diff
-    2019.09.13Moon Festival
+    ```info
+    2019.09.13 Moon Festival
     ```
 * Week2
+     - [x] Linked List
      - [x] [Linked List](https://github.com/Yuni-wih/DSA-learning/tree/master/Lesson2%20%7C%7C%20Linked%20List)
 * Week3
      - [x] Stack and Queue
@@ -42,9 +53,10 @@
 * Week4
      - [x] [Set Mismatch](https://github.com/Yuni-wih/DSA-learning/tree/master/Lesson4%20%7C%7C%20Set%20Mismatch)
      - [x] [Insertion Sort](https://github.com/Yuni-wih/DSA-learning/tree/master/Week5%20%7C%7C%20Insertion%20Sort)
+     
 * Week5
     ``` danger
-    2019.10.10Double Tenth Day
+    2019.10.10 Double Tenth Day
     ```
 * Week6
     - [x] Quick Sort
@@ -58,7 +70,7 @@
 * Week9
     - [x] [HW3-Binary Search Tree](https://github.com/Yuni-wih/DSA-learning/tree/master/HW3)
 * Week10
-    - [ ] Red Black Tree
+    - [x] Red Black Tree
 * Week11
     - [x] [Hash Set](https://github.com/Yuni-wih/DSA-learning/tree/master/Lesson8%20%7C%7C%20HashSet)
     - [x] [HW4-Hash Table](https://github.com/Yuni-wih/DSA-learning/tree/master/HW4)
@@ -79,7 +91,7 @@
     - [x] Final Test
 * Week18
     ```warning
-    Waiting 2020.01.11 
+    Waiting  2020.01.11 
     ```
 # Notes
 
@@ -100,16 +112,19 @@
 * ### Additional
     * 時間複雜度：衡量演算法執行好壞的工具，不是以秒來計算，而是以步驟次數來計算。
         * 👉[Link](https://medium.com/appworks-school/初學者學演算法-從時間複雜度認識常見演算法-一-b46fece65ba5)
-
-## **Min Stack**
+## **Stack & Queue**
 
 * ### Learning
 
     * #### Intro
+    
+        * Stack : Last-in-First-out
+            * pop(-1) 
+        * Queue : First-in-First-out
+            * pop(0) 
+        * 可以應用在BFS&DFS上，下面會介紹這兩個演算法
         * Stack是具有「Last-In-First-Out」的資料結構(可以想像成一種裝資料的容器)，「最晚進入Stack」的資料會「最先被取出」，「最早進入Stack」的資料則「最晚被取出」。
-        
         * 找到Stack中的最小值。
-
         * Push(data)：把資料放進Stack。
           Pop：把「最上面」的資料從Stack中移除。
           Top：回傳「最上面」的資料，不影響資料結構本身。
@@ -118,9 +133,11 @@
 
     ![](https://i.imgur.com/H3HBwef.png)
     
-* ### Reading
-    * [Stack: Intro(簡介)](http://alrightchiu.github.io/SecondRound/stack-introjian-jie.html)
-    * [Stack: 能夠在O(1)取得最小值的MinStack](http://alrightchiu.github.io/SecondRound/stack-neng-gou-zai-o1qu-de-zui-xiao-zhi-de-minstack.html)
+        
+    * #### Reading
+        * [Stacks and Queues](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Stacks%20and%20Queues/Stacks%20and%20Queues.html)
+        * [Stack: Intro(簡介)](http://alrightchiu.github.io/SecondRound/stack-introjian-jie.html)
+        * [Stack: 能夠在O(1)取得最小值的MinStack](http://alrightchiu.github.io/SecondRound/stack-neng-gou-zai-o1qu-de-zui-xiao-zhi-de-minstack.html)
 
 ## **Set Mismatch**
 
@@ -138,5 +155,156 @@
     * #### Intro
     
         * 插入排序法
-        * 一個個以插入的方式將Node排序好
- ---
+        * 一個個以插入的方式將Node排序
+        * 下面是每個sort的時間複雜度
+    ![](https://i.imgur.com/4k72tGl.png)
+    
+    * #### Reading
+        * [Comparison Sort: Insertion Sort(插入排序法)](http://alrightchiu.github.io/SecondRound/comparison-sort-insertion-sortcha-ru-pai-xu-fa.html)
+
+## **Quick Sort**
+
+* ### Learning
+
+    * #### Intro
+    
+        * 快速排序法
+        * 先用Partition以基準點分出左邊和右邊
+        * 再以呼叫quicksort的方式，以二分法方式將兩邊排列，最後就會由小到大排列array裡的元素
+    
+    * #### Reading
+        * [Comparison Sort: Quick Sort(快速排序法)](http://alrightchiu.github.io/SecondRound/comparison-sort-quick-sortkuai-su-pai-xu-fa.html)
+    
+## **Merge Sort**
+
+* ### Learning
+
+    * #### Intro
+    
+        * 合併排序法
+        * 先將array裡的元素拆開(devide)成為各一個
+        * 再以mergesort的function呼叫，將每個元素合併
+        * 設一個空的array[]，將左邊和右邊互相比大小，由小到大排列
+    
+    * #### Reading
+        * [Comparison Sort: Merge Sort(合併排序法)](http://alrightchiu.github.io/SecondRound/comparison-sort-merge-sorthe-bing-pai-xu-fa.html)
+
+## **Heap Sort**
+
+* ### Learning
+
+    * #### Intro
+    
+        * 堆積排序法
+        * 先用heapify將最大值往最頂點放
+        * 再呼叫heapsort函式，將最頂點的值和array中的最後一個值交換，然後把這個交換到最後一個位置的值取出放在新的array裡
+        * 持續呼叫heapify再繼續上一步
+    
+    * #### Reading
+        * [Comparison Sort: Heap Sort(堆積排序法)](http://alrightchiu.github.io/SecondRound/comparison-sort-heap-sortdui-ji-pai-xu-fa.html)
+
+## **Binary Tree**
+
+* ### Learning
+
+    * #### Intro
+    
+        * 限制node只能有兩個child，等價於「樹上的每一個node之degree皆為2」，此即稱為Binary Tree(二元樹)，並稱兩個child pointer為left child和right child。
+        * root(i=0)/parent(i//2)/left child(2i+1)/right child(2i+2)
+        * 若一棵樹的node按照Full Binary Tree的次序排列(由上至下，由左至右)，則稱此樹為Complete Binary Tree。
+    ![](https://i.imgur.com/rGtSeRc.png)
+
+    
+    * #### Reading
+        * [Binary Tree: Intro(簡介)](http://alrightchiu.github.io/SecondRound/binary-tree-introjian-jie.html)
+
+## **Red Black Tree**
+
+* ### Learning
+
+    * #### Intro
+    
+        * 在BST中的操作，不論是Insert(新增資料)或是Delete(刪除資料)，皆需要先做Search(搜尋)，而Search(搜尋)的效率，取決於BST的height(樹高)
+        * RBT的node比BST多加了「顏色」(紅色或黑色)
+        * RBT可以被視為如同Complete Binary Tree的BST，所有與Search(搜尋)有關的操作(Leftmost、Successor、Insert、Delete等等)，都能夠在O(logN)內完成
+        * 藉由控制顏色，能夠保證在RBT中，最長path(路徑)不會超過最短path的兩倍(若最短的path是5，最長的path至多只能是10)，如此，RBT便能夠近似地視為平衡
+        * RBT的五項特徵：
+
+            1. RBT中的每一個node不是黑色就是紅色。
+            1. root一定是黑色。
+            1. 每一個leaf node(也就是NULL)一定是黑色。
+            1. 如果某個node是紅色，那麼其兩個child必定是黑色，不能有兩個紅色node相連，如圖中的node(17)、node(30)。
+            1. 若某個node為黑色，其child之顏色沒有限制，如圖中的node(38)、node(26)、node(21)。
+            1. 站在任何一個node上，所有從該node走到其任意descendant leaf的path上之黑色node數必定相同。
+    ![](https://i.imgur.com/WB8P5qP.png)
+
+    * #### Reading
+        * [Red Black Tree: Intro(簡介)](https://alrightchiu.github.io/SecondRound/red-black-tree-introjian-jie.html)
+
+## **Hash**
+
+* ### Learning
+
+    * #### Intro
+    
+        * Hash 是一種加密函數，將字元轉換成散列值
+           
+    * #### Reading
+        * [HashTable 的 Python 实现](https://www.nosuchfield.com/2016/07/29/the-python-implementationp-of-HashTable/)
+
+## **Breadth First Search**
+
+* ### Learning
+
+    * #### Intro
+    
+        * 廣度優先搜尋
+        * 各個node相對於root有其對應的level，按照level由小到大依序對node進行Visiting
+           
+    * #### Reading
+        * [Graph: Breadth-First Search(BFS，廣度優先搜尋)](https://alrightchiu.github.io/SecondRound/graph-breadth-first-searchbfsguang-du-you-xian-sou-xun.html)
+
+## **Depth First Search**
+
+* ### Learning
+
+    * #### Intro
+    
+        * 深度優先搜尋
+        * 先遇到的node就先Visiting
+           
+    * #### Reading
+        * [Graph: Depth-First Search(DFS，深度優先搜尋)](http://alrightchiu.github.io/SecondRound/graph-depth-first-searchdfsshen-du-you-xian-sou-xun.html)
+
+## **Minimum Spanning Tree**
+
+* ### Learning
+
+    * #### Intro
+    
+        * MST，最小生成樹
+        * 因為是樹，所以沒有cycle
+        * 因為是樹，若Graph有V個vertex，Spanning Tree只有|V|−1條edge
+        * Graph具有weight，因此，不同的Spanning Tree，可能有不同的weight總和，而其中，具有最小weight總和的樹，稱為Minimum Spanning Tree(MST)
+        ![](https://i.imgur.com/tG6bEsg.png)
+
+           
+    * #### Reading
+        * [Minimum Spanning Tree：Intro(簡介)](http://alrightchiu.github.io/SecondRound/graph-depth-first-searchdfsshen-du-you-xian-sou-xun.html)
+
+## **Minimum Spanning Tree**
+
+* ### Learning
+
+    * #### Intro
+    
+        * 以單一vertex為起點，抵達Graph中的其餘所有vertex之最短路徑
+        * 起點vertex即為root
+        * 從root到其餘vertex的path必定是唯一的最短路徑。
+        
+        ![](https://i.imgur.com/8WSaZWm.png)
+        
+    * #### Reading
+        * [Shortest Path：Intro(簡介)](http://alrightchiu.github.io/SecondRound/shortest-pathintrojian-jie.html)
+---
+2019 Data Structure and Algorithm by Yuni
