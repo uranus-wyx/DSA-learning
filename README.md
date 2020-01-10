@@ -75,26 +75,26 @@
     - [x] [__Merge Sort__](#merge-sort)
     - [x] [HW2-Heap Sort & Merge Sort](https://github.com/Yuni-wih/DSA-learning/tree/master/HW2)
 * Week8
-    - [x] [Binary Tree](#binary-tree)
+    - [x] [__Binary Tree__](#binary-tree)
 * Week9
     - [x] [HW3-Binary Search Tree](https://github.com/Yuni-wih/DSA-learning/tree/master/HW3)
 * Week10
-    - [x] [Red Black Tree] (#red-black-tree)
+    - [x] [__Red Black Tree__](#red-black-tree)
 * Week11
-    - [x] [Hash] (#hash)
+    - [x] [__Hash__](#hash)
     - [x] [Lesson8-Hash Set](https://github.com/Yuni-wih/DSA-learning/tree/master/Lesson8%20%7C%7C%20HashSet)
     - [x] [Leetcode-Design HashSet](https://github.com/Yuni-wih/DSA-learning/blob/master/Leetcode/705_Design%20HashSet_06170244.py)
     - [x] [HW4-Hash Table](https://github.com/Yuni-wih/DSA-learning/tree/master/HW4)
 * Week12
-    - [x] [Breadth-First Search] (#breadth-first-search)
+    - [x] [__Breadth-First Search__](#breadth-first-search)
 * Week13
-    - [x] [Depth-First Search] (#depth-first-search)
+    - [x] [__Depth-First Search__](#depth-first-search)
     - [x] [HW5-BFS & DFS](https://github.com/Yuni-wih/DSA-learning/tree/master/HW5)
 * Week14
     - [ ] Searching a maze using DFS and BFS in Python 3
-    - [x] [Minimum Spanning Tree] (#minimum-spanning-tree)
+    - [x] [__Minimum Spanning Tree__](#minimum-spanning-tree)
 * Week15
-    - [x] [Shortest Path] (#shortest-path)
+    - [x] [__Shortest Path__](#shortest-path)
     - [x] [HW6-Dijkstra & Kruskal](https://github.com/Yuni-wih/DSA-learning/tree/master/HW6)
 * Week16
     - [x] Overview
