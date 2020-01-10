@@ -11,7 +11,7 @@
   * [Class Lesson](#class-lesson)
 - [Notes](#notes)
   * [__Linked List__](#linked-list)
-  * [**Stack & Queue**](#stack-&-queue)
+  * [**Stack & Queue**](#stack-and-queue)
   * [**Set Mismatch**](#set-mismatch)
   * [**Insertion Sort**](#insertion-sort)
   * [**Quick Sort**](#quick-sort)
