@@ -123,7 +123,7 @@
 * ### Additional
     * 時間複雜度：衡量演算法執行好壞的工具，不是以秒來計算，而是以步驟次數來計算。
         * 👉[Link](https://medium.com/appworks-school/初學者學演算法-從時間複雜度認識常見演算法-一-b46fece65ba5)
-## **Stack & Queue**
+## **Stack and Queue**
 
 * ### Learning
 
